@@ -1,6 +1,9 @@
 Author: Elan Miller
 CSE 332S Lab 1
 
+Assignment: you will implement a simple C++ program that can (1) read sets of 5 cards from a file, sort the cards in each set into ascending order by rank and then suit, and then assign a score to the set based on its rank in poker (assuming a single standard 52 card deck with no wild cards).
+
+
 Errors: Program was returning piecesGreaterThanDims error, but when I fixed
 my function for printing my board, I successfully ran my program.
 
