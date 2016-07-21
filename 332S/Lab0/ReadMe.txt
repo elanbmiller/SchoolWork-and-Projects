@@ -2,6 +2,10 @@ Elan Miller
 
 Lab 0
 
+Assignment: you will implement a simple C++ program that can (1) read in and parse command line arguments, (2) open a file and read in strings from it, and (3) parse those strings as the definitions of cards in a standard playing deck for bridge, cribbage, poker, etc. Your program will print out what was read and parsed from the file so you can check easily that it worked correctly.
+
+In subsequent lab assignments you will use these features to generate sets of cards, generate different combinations of the cards in a set, and order the different combinations according to various scoring functions.
+
 Warnings/Errors:
 1. Program was crashing when no command line arguments were entered 
 (other than the program), and this was occuring because I was returning the usage
