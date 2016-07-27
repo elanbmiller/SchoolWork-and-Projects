@@ -1,0 +1,73 @@
+package lab2;
+
+import sedgewick.StdIn;
+import cse131.ArgsProcessor;
+
+public class Arrays {
+    public static void main(String[] args) {
+        int N = Integer.parseInt(args[0]);
+
+        // initialize to random values between 0 and 1
+        double[] a = new double[N];
+        for (int i = 0; i < N; i++) {
+            a[i] = Math.random();
+        }
+
+        // print array values, one per line
+        System.out.println("a[]");
+        System.out.println("-------------------");
+        for (int i = 0; i < N; i++) {
+            System.out.println(a[i]);
+        }
+        System.out.println();
+        System.out.println("a = " + a);
+        System.out.println();
+
+        // find the maximum
+        double max = Double.NEGATIVE_INFINITY;
+        for (int i = 0; i < N; i++) {
+            if (a[i] > max) max = a[i];
+        }
+        System.out.println("max = " + max);
+
+
+        // average
+        double sum = 0.0;
+        for (int i = 0; i < N; i++) {
+            sum += a[i];
+        }
+        System.out.println("average = " + sum / N);
+
+        // copy to another array
+        double[] b = new double[N];
+        for (int i = 0; i < N; i++) {
+            b[i] = a[i];
+        }
+
+        // reverse the order
+        for (int i = 0; i < N/2; i++) {
+            double temp = b[i];
+            b[i] = b[N-i-1];
+            b[N-i-1] = temp;
+        }
+
+        // print array values, one per line
+        System.out.println();
+        System.out.println("b[]");
+        System.out.println("-------------------");
+        for (int i = 0; i < N; i++) {
+            System.out.println(b[i]);
+        }
+        System.out.println();
+
+
+        // dot product of a[] and b[]
+        double dotProduct = 0.0;
+        for (int i = 0; i < N; i++) {
+            dotProduct += a[i] * b[i];
+        }
+        System.out.println("dot product of a[] and b[] = " + dotProduct);
+
+    }
+
+}
