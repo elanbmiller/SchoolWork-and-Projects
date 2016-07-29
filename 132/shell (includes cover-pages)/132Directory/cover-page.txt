@@ -1,0 +1,20 @@
+Name: Elan Miller
+Partner: None
+Email: elanbmiller@wustl.edu
+Lab Section: MW 1-2:30
+
+People who helped: None
+Websites used: http://www.computerhope.com/unix/ucat.htm
+
+Challenges: Getting used to the commands
+Learned: How to use command prompt and connect using remote desktop
+Unable to complete anything? No
+Anything to you should know about my work? No
+
+1. /home/warehouse/elanbmiller
+2. Desktop, documents, Downloads, and Music are some of the files
+3. My new directory is 132Directory which contains cover-page.txt
+4. Absolute path: /home/warehouse/elanbmiller/132Directory/SubDirectory
+Relative path: ~/132Directory/SubDirectory
+5.24
+6. Nano 
