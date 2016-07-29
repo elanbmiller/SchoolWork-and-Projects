@@ -1,0 +1,67 @@
+# CSE132 (Assignment 3) Cover Page
+
+By submitting this assignment, you certify that you have read, understood, and
+complied with the CSE 132 collaboration policy. You are also certifying that
+the following information is complete and truthful.
+
+
+## Basic Information
+
+Name:Elan Miller
+WUSTL Key:elanbmiller
+
+and if two are partnered together
+
+Name:Nikki Wines
+WUSTL Key:catherinewines
+
+List people who helped you on this assignment 
+(outside of TAs, instructors, or partners):None
+
+List outside sources you used on this assignment
+(other than those linked in the writeup):None
+
+
+
+## Assignment Overview
+
+What challenged you about this assignment?
+The equations/conversions
+
+What did you learn during this assignment?
+How to effectively tell temperature using the temperature sensor
+
+Were you unable to complete anything? Explain: No
+
+Is there anything we should know about your work on this assignment: No
+
+
+
+## Assignment Questions
+
+Dolbear's Law is an equation that gives you a temperature from a number of
+cricket chirps in one minute. What is the equation that provides the chirp 
+period given a temperature in Celcius?
+Seconds Per Chirp = (1.0 / (( (7.0*temp)/60.0 - 0.5)))
+
+Using the datasheet for your temperature sensor, the equation you derived
+from it, and you knowledge of the Arduino, what is the expected `analogRead()`
+value for 25 Celcius? 15 Celcius? Include any assumptions, like 
+`analogReference()`, and a little bit of your work (an equation is fine).
+
+We know there's a 750 mV output at 25 Celcius, and working backwards, we know that
+V = analogRead() * 1.1/1023 and we know the amount of volts is 0.75, therefore the analogRead
+value is 697.5 for 25 Celsius
+
+Likewise at 15 Celsius, the voltage is .01*(15)+.5 = .65 V, 
+and 1023*.65/1.1 = 604.5, which is the analogRead() value 
+
+
+What temperature range is the TMP36 specified for? How accurate is it in this
+range? This can be answered looking solely at the overview and specifications
+pages.
+
+-40 - 125 Celsius.
+Accuracy : +/- 2 Celsius
+
+

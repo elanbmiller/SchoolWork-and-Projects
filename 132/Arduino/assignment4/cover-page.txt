@@ -1,0 +1,51 @@
+# CSE132 (Assignment 4) Cover Page
+
+By submitting this assignment, you certify that you have read, understood, and
+complied with the CSE 132 collaboration policy. You are also certifying that
+the following information is complete and truthful.
+
+
+## Basic Information
+
+Name: Elan Miller
+WUSTL Key: elanbmiller
+
+and if two are partnered together
+
+Name:
+WUSTL Key:
+
+List people who helped you on this assignment 
+(outside of TAs, instructors, or partners): None
+
+List outside sources you used on this assignment
+(other than those linked in the writeup): Googled info on how to send values on arduino 
+
+
+
+## Assignment Overview
+
+What challenged you about this assignment?
+Converting values to send
+What did you learn during this assignment?
+how to send values from one machine to another
+Were you unable to complete anything? Explain:
+No
+Is there anything we should know about your work on this assignment:
+No
+
+
+## Assignment Questions
+
+What is the meaning of a message that containts the following byte sequence?
+"0x21 0x30 0x00 0x04 0x4f 0x6f 0x70 0x73"
+
+First is the magic number (!) then the key received is the debug string key value
+then a null value is sent, then EOT (end of transmission) and finally the values for
+the string of characters that spell out "Oops"
+
+Our temperature sensor works down to -40 degrees C.  If you receive the
+following byte sequence, is the sensor above or below freezing?
+"0x21 0x34 0x94 0x30 0x10 0x1f"
+
+The sensor is indeed above -40 degrees C and not freezing (look up on piazza)

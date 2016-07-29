@@ -1,0 +1,53 @@
+# CSE132 (Assignment 5) Cover Page
+
+By submitting this assignment, you certify that you have read, understood, and
+complied with the CSE 132 collaboration policy. You are also certifying that
+the following information is complete and truthful.
+
+
+## Basic Information
+
+Name:Elan Miller
+WUSTL Key:elanbmiller
+
+and if two are partnered together
+
+Name:
+WUSTL Key:
+
+List people who helped you on this assignment 
+(outside of TAs, instructors, or partners):Professor Chamberlain
+
+List outside sources you used on this assignment
+(other than those linked in the writeup):google
+
+
+
+## Assignment Overview
+
+What challenged you about this assignment?Getting arduino to read values correctly
+
+What did you learn during this assignment?How arduino processes values
+
+Were you unable to complete anything? Explain:Had trouble getting the formatting to work correctly when printing from java
+
+Is there anything we should know about your work on this assignment:
+
+
+
+## Assignment Questions
+
+What is the Morse code encoding of the message "Hello world"?
+{1, 1, 1, 1, 0},{1, 0, 0, 0, 0},{1, 3, 1, 1, 0},{1, 3, 1, 1, 0},{3, 3, 3, 0, 0}  - {1, 3, 3, 0, 0},{3, 3, 3, 0, 0},{1, 3, 1, 0, 0},{1, 3, 1, 1, 0},{3, 1, 1, 0, 0}
+We said in the writeup that we "cheated" on the normal rules for .h files
+and .c files.  What could you do (don't actually do it, just describe it)
+so that your morse sketch follows the rules strictly (i.e., no actual
+executable code in a .h file)?
+
+.h is simply a header file, and header files have the program definitions and the source files contain the program.
+
+The .h file should be converted to a .c file to be "correct"
+
+
+
+

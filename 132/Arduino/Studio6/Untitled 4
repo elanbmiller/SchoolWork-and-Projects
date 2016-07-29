@@ -1,0 +1,49 @@
+Look up old labs!
+Java: 
+Float – 32 bits
+	Mantissa – 23 bits
+	Exponent – 8 bits
+	Sign bit – 1 bit
+Double – 64 bits
+	Mantissa – 52 
+	Exponent – 11
+	Sign – 1
+Int – 32
+Long – 64
+Char – 16
+Short - 16
+
+C:
+Float – 32 bits
+	Mantissa – 23
+	Exponenet - 8
+	Sign – 1
+Double – 64 bits
+	Mantissa- 52
+	Exponent – 11
+	Sign – 1
+Char – 1 byte
+Int – 2 or 4 bytes
+Short – 2 bytes
+Long – 4 bytes
+
+\r = new line 
+
+
+Array Declaration in C:
+int array[] only in C not int[] array
+
+Bitwise AND (c = a & b) – c has 1s in the places where both of the corresponding bits in a and b are 1.
+Bitwise OR (c = a | b) – c has 1s wherever at least one of the corresponding bits in a and b is 1.
+Bitwise XOR (c = a ^ b) – c has 1s wherever one and only one of the corresponding bits in a and b is 1.
+Bitwise NOT (c = ~a) – c is a, with each bit inverted, else c is 0.
+Right shift (c = a >> b) – c is a, with each bit moved lower b places.
+Left shift (c = a << b) – c is a, with each bit moved higher b places.
+Boolean AND (c = a && b) – c is 1 if both a and b are non-zero.
+Boolean OR (c = a || b) – c is 1 if either a and b are non-zero.
+Boolean NOT (c = !a) – c is 1 only if a is 0.
+
+Delay() function – Not perfectly accurate
+ No other reading of sensors, mathematical calculations, or pin manipulation can go on during the delay function
+
+Delat Time: Can be a little off if stuff occurs in program b4 it
